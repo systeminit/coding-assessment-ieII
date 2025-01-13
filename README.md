@@ -35,14 +35,7 @@ output socket which contains the computed value.
    location to `/root/computed`
 8. Add an input parameter `value` of type `string`
 9. Click `Edit Bindings` and set the binding to `/root/domain/input`
-10. Set the function to the following
-
-```typescript
-function main(Input: input) {
-  return input.value * 2;
-}
-```
-
+10. Write a function that doubles the input value
 11. Go back to the modeling screen and drag the new `Doubler` component onto the
     canvas
 12. Enter a value in the `input` field to `8`
